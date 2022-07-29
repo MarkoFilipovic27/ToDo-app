@@ -31,6 +31,8 @@ form input, form button{
     border: solid 0.5px;
     border-color: #F2F5F8;
     background: white;
+    border-radius: 4px;
+    box-shadow: 5px 10px 18px #F2F5F8;
 }
 
 form button{
@@ -69,7 +71,7 @@ form button:hover{
     transition: all 0.5s ease;
     border: solid 0.5px;
     border-color: #F2F5F8;
-
+    box-shadow: 0.5px;
 }
 
 .todo li{
